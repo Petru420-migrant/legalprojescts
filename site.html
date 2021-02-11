@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
+
 
 <head>
     <meta charset="utf-8">
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <meta name="viewport" content="width=devivce-width, initial-scale=1">
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -47,6 +48,18 @@
             border-color: #000;
         }
         
+        .blockquote-footer {
+            display: block;
+            font-size: 80%;
+            color: #6c757d;
+            background-color: var(--dark);
+            text-align: center;
+        }
+        
+        .blockquote-footer::before {
+            content: "";
+        }
+        
         body {
             background-color: var(--dark);
         }
@@ -56,22 +69,39 @@
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">LOGo</a>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- navbar name: aka logo if u want -->
+        <a class="navbar-brand" href="#">FakeLOGO🥰</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Main</a>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Customer service</a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- navbar items: -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
 
-                </ul>
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Customer service</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/theCYBERbro">theCYBERbro👨‍💻💻💚</a>
+                </li>
+
+            </ul>
+
         </div>
     </nav>
+
+    <br>
+
     <div class="row">
         <div class="col-sm-6">
             <div class="card">
@@ -91,23 +121,28 @@
                     <img src="https://media.giphy.com/media/xT9DPJumU9DePyDwJi/giphy.gif" class="card-img-top" alt="">
                     <h5 class="card-title">Join the light side</h5>
                     <p class="card-text">
-                        Rebelions
+                        Rebelions🐢
                     </p>
                     <a href="#" class="btn btn-primary">Join</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Footer idk 🤷‍♂️  -->
+    <br>
     <div class="jumbotron">
         <div class="container-fluid">
             <h1>Welcome</h1>
-            <p>This site has no purpose.</p>
+            <p>Down put all the 💩 content</p>
             <hr>
-            <footer>
-                <p>&copy;All rights reserved 2020</p>
-            </footer>
+            <p>like this: 💩</p>
         </div>
     </div>
+    <footer class="blockquote-footer">
+        <b>Real Footer bro</b>
+        <p>&copy;All rights reserved 2020</p>
+    </footer>
 
 </body>
 
