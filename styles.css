@@ -1,0 +1,129 @@
+/* your CSS needs to be here bumb ass */
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: url("src/loading.gif") center no-repeat #212121;
+}
+
+
+/* <!-- Custom CSS that Overrides the bootstrap css --><style> */
+
+
+/* nigga mode */
+
+ :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #25292c;
+}
+
+.card-body {
+    background-color: var(--gray);
+    border-color: #000;
+}
+
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+    background-color: var(--dark);
+    text-align: center;
+}
+
+.blockquote-footer::before {
+    content: "";
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.jumbotron {
+    padding: 10px 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card-body {
+    background-color: var(--light);
+    border-color: #000;
+}
+
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+    background-color: var(--dark);
+    text-align: center;
+}
+
+.blockquote-footer::before {
+    content: "";
+}
+
+.carusel_outline {
+    /* these 2 not working, only god knows why */
+    /* margin-right: 10%;
+    margin-left: 10%; */
+    width: 50% !important;
+    display: inline !important;
+    text-align: center;
+    max-height: 50px;
+}
+
+.carousel,
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-item {
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+.d-block {
+    display: inline!important;
+}
+
+.stupid_card {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.carousel-inner {
+    /* height: 500px; */
+}
+
+.item,
+img {
+    height: 100% !important;
+    width: 100% !important;
+}
