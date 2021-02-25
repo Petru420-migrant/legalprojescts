@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Animal code</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- jQuery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Boostrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXnHiSgDznyvEWLRDTty2Ej8fUgrwm3Xjt1Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Boostrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+    <!-- Custom CSS that Overrides the bootstrap css -->
+    <style>
+        /* nigga mode */
+
+         :root {
+            --blue: #007bff;
+            --indigo: #6610f2;
+            --purple: #6f42c1;
+            --pink: #e83e8c;
+            --red: #dc3545;
+            --orange: #fd7e14;
+            --yellow: #ffc107;
+            --green: #28a745;
+            --teal: #20c997;
+            --cyan: #17a2b8;
+            --white: #fff;
+            --gray: #6c757d;
+            --gray-dark: #343a40;
+            --primary: #007bff;
+            --secondary: #6c757d;
+            --success: #28a745;
+            --info: #17a2b8;
+            --warning: #ffc107;
+            --danger: #dc3545;
+            --light: #f8f9fa;
+            --dark: #25292c;
+        }
+
+        .card-body {
+            background-color: var(--light);
+            border-color: #000;
+        }
+
+        .blockquote-footer {
+            display: block;
+            font-size: 80%;
+            color: #6c757d;
+            background-color: var(--dark);
+            text-align: center;
+        }
+
+        .blockquote-footer::before {
+            content: " ";
+        }
+
+        .d-block {
+            display: inline!important;
+        }
+
+        .stupid_card {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+        body {
+            background-color: var(--dark);
+        }
+
+        .carousel-inner {
+            /* height: 500px; */
+        }
+
+        .item,
+        img {
+            height: 100% !important;
+            width: 100% !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-top ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <!-- navbar name: aka logo if u want -->
+            <a class="navbar-brand " href="# ">FakeLOGO</a>
+            <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                <ul class="navbar-nav mr-auto ">
+                    <!-- navbar items: -->
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="index.html ">Home <span class="sr-only ">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link " href="# ">Customer service</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3">
+  <div class="col">
+    <div class="card">
+      <div class="card-img td-example-same-image-height">
+        <img class="card-img-top obj-fit-cover" src="..." alt="...">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text text--muted">...</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <div class="card-img td-example-same-image-height">
+        <img class="card-img-top obj-fit-cover" src="..." alt="...">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text text--muted">...</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <div class="card-img td-example-same-image-height">
+        <img class="card-img-top obj-fit-cover" src="..." alt="...">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text text--muted">...</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+    </div>
+    <!-- Footer -->
+
+    <div class="fixed-bottom ">
+        <footer class="bg-light text-center text-lg-start ">
+            <!-- Grid container -->
+            <div class="container p-4 ">
+                <!--Grid row-->
+                <div class="row ">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0 ">
+                        <h5 class="text-uppercase ">Contacts</h5>
+                        <p>
+                            gimme69k@gmail.com
+                        </p>
+                        <a class="nav-link " href="https://vk.com/bilishi ">Pedro</a>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.2); ">
+                © 2020 Copyright:
+                <a class="nav-link " href="https://vk.com/bilishi ">Pedro</a>
+
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+
+    </head>
+
+</html
