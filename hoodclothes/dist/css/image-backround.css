@@ -1,0 +1,8 @@
+/* Set a background image by replacing the URL below */
+body {
+    background: url('https://sun9-69.userapi.com/impf/h1GV9Jm2u7rmsCe65wKzPTw5jtS38n2tVEGiBA/mfJhuYaJnTo.jpg?size=1080x810&quality=96&sign=fd782f5ada058aa9a3a799c323bd8d05&type=album') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
